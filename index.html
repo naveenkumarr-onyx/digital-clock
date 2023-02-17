@@ -44,7 +44,7 @@
         const ampmEl = document.getElementById('ampm');
         const noonEl = document.getElementById('noon');
         ampmEl.innerHTML = h < 12 ? "AM" :"PM";  
-        noonEl.innerHTML = h < 12 ? "MORNING" : "EVENING" ;
+        noonEl.innerHTML = h < 12 ? h > 1 ? h > 6?  "MORNING" : "AFTERNOON" :"EVENING" : "NIGHT";
 
         //declare variable
         var time = new Date();

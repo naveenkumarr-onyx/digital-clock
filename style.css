@@ -1,5 +1,5 @@
 body{
-    background:url(img/photo-1591420699297-88e82958f324.avif);
+    background:url('img/photo-1591420699297-88e82958f324.avif');
     background-repeat: no-repeat;
     background-size: cover;
     animation-name: sliding;
@@ -8,10 +8,10 @@ body{
    
 }
 @keyframes sliding {
-    25%{background-image: url(img/photo-1591420699297-88e82958f324.avif);}
-    50%{background-image: url(img/photography-animals-dog-landscape-wallpaper-preview.jpg);
+    25%{background-image: url('img/photo-1591420699297-88e82958f324.avif');}
+    50%{background-image: url('img/photography-animals-dog-landscape-wallpaper-preview.jpg');
         transition: 1s;}
-    100%{background-image: url(img/dog.avif);
+    100%{background-image: url('img/dog.avif');
         transition: 1s;}
 }
 /* @media only screen and (max-width: 500px) {
